@@ -59,3 +59,11 @@
 .nav-extra {
     margin-top: 305px;
 }
+
+/*Media Queries */
+
+@media (max-width: 768px) {
+    .sidenav-container {
+        display: none;
+    }
+}

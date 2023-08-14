@@ -22,11 +22,11 @@ function Homenav() {
                     <p>Free plan</p>
                 </div>
 
-                <img src={Bell}  className='bell'/>
+                <img src={Bell}  className='bell' alt='bell'/>
 
                 <span className='line'></span>
 
-                <img src={Profile} alt='profile picture'/>
+                <img src={Profile} alt='profile'/>
             </div>
         </div>
     )
