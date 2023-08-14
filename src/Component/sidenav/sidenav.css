@@ -1,0 +1,61 @@
+.sidenav-container {
+    width: 212px;
+    height: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 26px;
+    padding-bottom: 15px;
+    border-right: 2px solid #1C1C1C1A;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+}
+
+.sidenav-logo {
+    color: #3F4E72;
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.nav-option-container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.nav-extra {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.nav-option {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    padding: 4px;
+}
+
+.selected {
+    color: #563BDB;
+    border-left: 4px solid #563BDB;
+    border-radius: 3px;
+    background: #EEEBFB;
+}
+
+.nav-extra {
+    margin-top: 305px;
+}
